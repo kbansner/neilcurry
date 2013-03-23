@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'ArialMT', 'Arial', 'sans-serif';
+  font-size: 15px;
+  line-height: 20px;
+  color: #666;
+}
+
+#flow {
+  margin: 0 auto;
+  padding: 0 0 0 35px;
+  width: 665px;
+}
+
+#nav {
+  margin: 4px 0 0 0;
+  padding: 0;
+  width: 630px;
+  height: 42px;
+  text-align: center;
+  font-size: 17px;
+  border-bottom: 1px solid #463C3C;
+}
+
+#nav a {
+  padding: 0 16px;
+  line-height: 42px;
+  color: #666;
+  text-decoration: none;
+}
+
+#nav a:hover, #nav a.selected {
+  color: #463C3C;
+  font-weight: bold;
+}
+
+#right {
+  float: left;
+  margin: 0 0 0 40px;
+  width: 140px;
+}
+
+#left {
+  float: left;
+  margin: 0 0 0 5px;
+  width: 205px;
+}
+
+#main {
+  min-height: 100px;
+  float: left;
+  margin: 0 0 0 45px;
+  padding-bottom: 2em;
+  width: 375px;
+}
+
+#publications {
+  float: left;
+  margin: 0 0 0 5px;
+  padding-bottom: 2em;
+  width: 460px;
+}
+
+#publications p {
+  margin: .2em 0 1em 0; 
+  line-height: 1.2;
+}
+
+h1 {
+  margin: 20px 0 8px 5px;
+  height: 42px;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #969696;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 1.6em 0 0 0;
+}
+
+p {margin: .2em 0 1em 0;}
+b {color: #555;}
+a {color: #555; font-weight: bold;}
+a:hover {color: #333; font-weight: bold;}
+
+em {font-weight: bold;}
+
+.poem {
+  font-family: "Comic Sans MS";
+  color: #444;
+}
+
+.copy {
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.review {
+  margin: .5em 0 0 5px;
+  width: 610px;
+  padding: .5em 0;
+}
+
+p.attr {margin-left: 60px;}
+.border {border-bottom: 1px dotted #aaa;}
+
+.address {margin: 1em 0;}
+.address p {margin: .4em 0;}
