@@ -63,7 +63,7 @@ body {
 }
 
 #publications p {
-  margin: .2em 0 1em 0; 
+  margin: .2em 0 1em 0;
   line-height: 1.2;
 }
 
@@ -108,3 +108,36 @@ p.attr {margin-left: 60px;}
 
 .address {margin: 1em 0;}
 .address p {margin: .4em 0;}
+
+
+img.shadow {
+  display: block;
+  margin: 10px 0 20px 8px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  height: 180px;
+  width: 120px;
+}
+
+audio:hover, audio:focus, audio:active {
+  -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+audio {
+  width: 200px;
+  -webkit-transition:all 0.5s linear;
+  -moz-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  transition:all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px #999;
+  -webkit-box-shadow:  2px 2px 4px 0px #999;
+  box-shadow: 2px 2px 4px 0px #999;
+  -moz-border-radius:7px 7px 7px 7px ;
+  -webkit-border-radius:7px 7px 7px 7px ;
+  border-radius:7px 7px 7px 7px ;
+}
